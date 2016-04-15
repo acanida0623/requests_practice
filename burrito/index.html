@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ORDER A BURRITO!</title>
+        <meta charset="utf-8">
+    </head>
+
+    <body>
+
+        <form  id="order_burrito"  method="post">
+          <p>
+            <label for="customer">Customer Name:</label><input name="customer" type="text" value="andrew"  />
+          </p>
+          <p>
+            <label for="phone">Phone Number:</label><input name="phone" type="text" value="1"  />
+          </p>
+          <fieldset>
+            <legend>Protein</legend>
+            <p>
+              <input type="radio" name="protein" value="chicken" />
+              <label>
+              Chicken
+              </label>
+            </p>
+            <p>
+              <input type="radio" name="protein" value="beef" />
+              <label>
+              Beef
+              </label>
+            </p>
+            <p>
+
+              <label>
+                <input type="radio" name="protein" value="pork" />
+                Pork
+              </label>
+            </p>
+            <p>
+              <label>
+                <input type="radio" name="protein" value="tofu" />
+                Tofu
+              </label>
+            </p>
+          </fieldset>
+
+
+          <fieldset>
+            <legend>Optional Ingredients</legend>
+            <p>
+              <input type="checkbox" name="optionals" value="cilantro" />
+              <label>
+              Cilantro
+              </label>
+            </p>
+            <p>
+              <input type="checkbox" name="optionals" value="sourcream" />
+              <label>
+              Sour Cream
+              </label>
+            </p>
+            <p>
+
+              <label>
+                <input type="checkbox" name="optionals" value="verdesalsa" />
+                Salsa Verde
+              </label>
+            </p>
+            <p>
+              <label>
+                <input type="checkbox" name="optionals" value="hotsalsa" />
+                Salsa Hot
+              </label>
+            </p>
+          </fieldset>
+          <button id="submit_order" value="Order">Order</button>
+        </form>
+
+    </body>
+</html>
+
+<script src="script.js"></script>

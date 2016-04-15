@@ -1,0 +1,59 @@
+.body {
+  margin: 0;
+  border: 0;
+
+	width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+#city{
+  margin-left: 37%;
+}
+
+#state {
+  margin-left: 37%;
+}
+.weather_label {
+  font-size: 3vw;
+  position: relative;
+  margin-left: 8vw;
+}
+
+.main {
+
+  margin: 0;
+  padding: 0;
+  border: 0;
+  top: 0;
+  left: 0;
+  position: absolute;
+  background-image: url("./clouds.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 100%;
+  height: 100vh;
+}
+.weather {
+  position: absolute;
+  border:2pt darkblue solid;
+  margin-left: 36%;
+  margin-top: 10vh;
+  width: 30%;
+
+}
+
+.datagrid table { border-collapse: collapse; text-align: center; width: 101%; }
+.datagrid {position: relative;
+  margin-top: 3vh;
+  font: normal 12px/150% Arial, Helvetica, sans-serif; background: #fff; overflow: hidden; border: 0px solid #006699; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; }
+.datagrid table td, .datagrid table th { padding: 3px 20px;
+}
+.datagrid table thead th {background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #006699), color-stop(1, #00557F) );
+background:-moz-linear-gradient( center top, #006699 5%, #00557F 100% );filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#006699', endColorstr='#00557F');
+background-color:#006699; color:#FFFFFF; font-size: 15px; font-weight: bold; border-left: 2px solid #0070A8; }
+.datagrid table thead th:first-child { border: none; }
+.datagrid table tbody td { color: #00496B; border-left: 1px solid #E1EEF4;font-size: 13px;font-weight: normal; }
+.datagrid table tbody .alt td { background: #E1EEF4; color: #00496B; }
+.datagrid table tbody td:first-child { border-left: none; }
+.datagrid table tbody tr:last-child td { border-bottom: none; }
